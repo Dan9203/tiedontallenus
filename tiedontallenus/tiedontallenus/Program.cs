@@ -17,7 +17,7 @@ namespace tiedontallenus
             lämpötila = int.Parse(syöte);
 
             // tiedostoon kirjoittaminen
-            string tiedosto = @"C:\Temp\Lämpötila.txt";
+            string tiedosto = @"C:\Windows\Temp\Lämpötila.txt";
             File.WriteAllText(tiedosto, lämpötila.ToString());
             Console.WriteLine("Uusi lämpötila tallenettu.");
 
